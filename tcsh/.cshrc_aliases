@@ -1,0 +1,2 @@
+alias sync ~/Applications/gmvault-v1.9.1/gmvault sync email@example.com
+alias slacksync 'set dir=`pwd`; set slackdir=`date +%s`; cd ~/Applications/slackvault; mkdir $slackdir; cd $slackdir; python ../slack_history.py --token='m-y-t-o-k-e-n'; cd $dir'
